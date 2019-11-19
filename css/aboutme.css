@@ -1,0 +1,157 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.about {
+  margin: 0px;
+  padding: 60px;
+
+  text-align: center;
+
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: black;
+}
+
+#school {
+  float: left;
+  box-sizing: border-box;
+  background: white;
+  width: 500px;
+
+  padding: 10px;
+  border: 1px solid white;
+  color: black;
+
+  margin: 5px;
+  padding: 0px;
+}
+
+body {
+  background: black
+}
+
+#Books {
+
+  float: left;
+  box-sizing: border-box;
+  background: white;
+  width: 500px;
+
+  padding: 10px;
+  border: 1px solid white;
+  color: black;
+
+  margin: 5px;
+  padding: 0px;
+
+}
+
+.content {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.content2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  width: 500px;
+
+  padding: 10px;
+  border: 1px solid black;
+
+
+  margin: 5px;
+  padding: 0px;
+
+}
+
+.skills {
+  float: right;
+  box-sizing: border-box;
+  background: white;
+  background: white;
+  width: 500px;
+
+  padding: 10px;
+  border: 1px solid white;
+  color: black;
+
+  margin: 5px;
+  padding: 0px;
+}
+
+#content3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.H {
+  float: left;
+  box-sizing: border-box;
+  background: white;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid white;
+  color: black;
+  margin: 5px;
+  padding: 0px;
+
+
+}
+
+.love {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.footer {
+  color: black;
+  background: white;
+  text-align: center;
+}
